@@ -35,10 +35,11 @@ h1,
 h3,
 p {
     text-transform: uppercase;
-    font-family: "Work Sans", sans-serif;
 }
 
 h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
     margin: 10px 0;
     line-height: 1em;
     font-weight: 200;
@@ -53,6 +54,7 @@ p {
     line-height: 1em;
     font-size: 2em;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .img-12 {
@@ -67,6 +69,7 @@ h2 {
     color: #7d97ad;
     font-size: 3.3em;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .featured {
@@ -99,7 +102,10 @@ h3 {
     margin: 10px 0;
     line-height: 1em;
     font-size: 3em;
+    color: #666756;
     letter-spacing: -2px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
 }
 
 article a {
