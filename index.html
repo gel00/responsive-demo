@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gellai Gabor's portfolio site</title>
+    <!--+++++++++++ fonts ++++++++++-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400" rel="stylesheet">
+    <!--+++++++++++ css reset ++++++++++-->
+    <link rel="stylesheet href="css/normalize.css">
+    <!--+++++++++++ css ++++++++++-->
+    <link rel="stylesheet"" href="css/main.css">
+    <!--+++++++++++ picture polyfill ++++++++++-->
+    <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="img/udacity_logo.svg" alt="udacity logo">
+        <h1>Gabor Gellai</h1>
+        <p>Front-end ninja</p>
+      </header>
+      <picture>
+        <source
+          media="(min-width: 960px)"
+          srcset="img/code-960_lg_1x.jpg 1x,
+                 img/code-1920_lg_2x.jpg 2x">
+        <source
+          media="(min-width: 600px)"
+          srcset="img/code-600_md_1x.jpg 1x,
+                 img/code-1200_md_2x.jpg 2x">
+        <source
+          media="(min-width: 400px)"
+          srcset="img/code-400_sm_1x.jpg 1x,
+                 img/code-800_sm_2x.jpg 2x">
+        <img  class="img-12" src="img/code.jpg" alt="some html code">
+      </picture>
+      <section class="featured">
+        <h2>Featured Work</h2>
+        <article>
+          <picture>
+            <source
+              media="(min-width: 499px)"
+              srcset="img/appstore-300_lg_1x.jpg 1x,
+                     img/appstore-600_lg_2x.jpg 2x">
+            <source
+              media="(min-width: 450px)"
+              srcset="img/appstore-170_md_1x.jpg 1x,
+                     img/appstore-340_md_2x.jpg 2x">
+            <source
+              media="(max-width: 449px)"
+              srcset="img/appstore-100_sm_1x.jpg 1x,
+                     img/appstore-200_sm_2x.jpg 2x">
+            <img src="img/sunflower.jpg" alt="sunflower">
+          </picture>
+          <h3>Applify</h3>
+          <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </article>
+        <hr class="display-md-none">
+        <article>
+          <picture>
+            <source
+              media="(min-width: 499px)"
+              srcset="img/sunflower-300_lg_1x.jpg 1x,
+                     img/sunflower-600_lg_2x.jpg 2x">
+            <source
+              media="(min-width: 450px)"
+              srcset="img/sunflower-170_md_1x.jpg 1x,
+                     img/sunflower-340_md_2x.jpg 2x">
+            <source
+              media="(max-width: 449px)"
+              srcset="img/sunflower-100_sm_1x.jpg 1x,
+                     img/sunflower-200_sm_2x.jpg 2x">
+            <img src="img/sunflower.jpg" alt="sunflower">
+          </picture>
+          <h3>Sunflower</h3>
+          <a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+        </article>
+        <hr class="display-md-none">
+        <article>
+          <picture>
+            <source
+              media="(min-width: 499px)"
+              srcset="img/sky-300_lg_1x.jpg 1x,
+                     img/sky-600_lg_2x.jpg 2x">
+            <source
+              media="(min-width: 450px)"
+              srcset="img/sky-170_md_1x.jpg 1x,
+                     img/sky-340_md_2x.jpg 2x">
+            <source
+              media="(max-width: 449px)"
+              srcset="img/sky-100_sm_1x.jpg 1x,
+                     img/sky-200_sm_2x.jpg 2x">
+            <img src="img/sky.jpg" alt="sky">
+          </picture>
+          <h3>Bokeh</h3>
+          <a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
